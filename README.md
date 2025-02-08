@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle, issue in Perl: accessing non-existent keys in hashes.  The `bug.pl` file shows how accessing an undefined key doesn't throw an error but returns `undef`, potentially causing silent failures. The `bugSolution.pl` file provides a safer solution to handle these situations.
